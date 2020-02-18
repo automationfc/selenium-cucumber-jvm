@@ -1,7 +1,7 @@
 @liveGuru
 Feature: Login to System
 
-  Scenario: Login with valid email and password
+  Scenario: Login with empty email and password
     Given I open live guru application
     When Click to My Account page
     And Input to email textbox with ""
